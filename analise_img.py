@@ -2,11 +2,8 @@
 import cv2 as cv
 
 # Selecionando imagens
-# img1 = cv.imread("C:/Users/ARLAB/projetos/outros_projetos/teste/python/imagens/abacate.jpg")
-# img2 = cv.imread("C:/Users/ARLAB/projetos/outros_projetos/teste/python/imagens/banana.jpg")
-
-img1 = cv.imread("C:/Users/ARLAB/Downloads/floresta.jpg")
-img2 = cv.imread("C:/Users/ARLAB/Downloads/floresta.jpg")
+img1 = cv.imread("caminho_para_imagem")
+img2 = cv.imread("caminho_para_imagem")
 
 # Verifica se as imagens foram lidas corretamente
 if img1 is None or img2 is None:
